@@ -288,7 +288,6 @@ struct buffer_descriptor {
 #ifdef _18F46J50
 #define BD_ADDR 0x400
 //#undef BUFFER_ADDR
-#else
 #elif defined _18F2550
 #define BD_ADDR 0x400
 #define BUFFER_ADDR 0x500
